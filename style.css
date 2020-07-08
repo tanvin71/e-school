@@ -135,7 +135,6 @@ header {
 .card-footer span {
     font-size: 14px;
 }
-.
 /* courses section end here */
 /* testimonial section star here */
 .testimonial h2 {
@@ -148,6 +147,7 @@ header {
     color: #000000;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
+    margin-top: 50px;
 
 }
 /* testimonial section end here */
@@ -159,6 +159,7 @@ header {
 }
 .teacher h2 {
     padding-top: 20px; 
+    font-size: 30px;
 }
 .teacher h2:hover {
     color: mediumpurple; 
@@ -228,3 +229,60 @@ footer a {
 
 
 /* footer section end here */
+
+    /* media query */
+    @media (max-width:1024px) {
+        .testimonial p {
+            margin-top: 20px;
+        }
+    }
+ @media (max-width:768px) {
+    a.nav-link.color.text-center {
+        display: inline;
+    }
+    #book .card {
+        margin-bottom: 20px;
+    }
+    .testimonial p {
+        margin-top: 10px;
+    }
+}
+@media (max-width:575px) {
+    a.nav-link.color.text-center {
+        display: inline;
+    }
+    
+    .banner-content h1 {
+        font-size: 35px;
+        
+    }
+    .banner-content span {
+        font-size: 35px;
+        
+    }
+    .banner-content-img {
+        margin-top: 50px;
+    }
+    #book .card {
+        margin-bottom: 20px;
+    }
+    #course h2 {
+        text-align: center;
+    }
+    .testimonial .img {
+        text-align: center!important;
+    }
+    .teacher h2 {
+        font-size: 25px;
+    }
+    .teacher1 .card {
+       margin-bottom: 10px;
+    }
+    footer a {
+        font-size: 13px;
+    }
+    .footer-bottom P {
+        font-size: 13px;
+    }
+    
+}
